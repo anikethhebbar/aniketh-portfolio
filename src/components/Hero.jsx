@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/about.jpg';
+import profilePic from '../assets/myimage.jpg';
 import { motion } from 'framer-motion';
 
 const container = (delay) => ({
@@ -28,7 +28,7 @@ const Hero = () => {
                          variants={container(0.5)}
                          initial="hidden"
                          animate="visible"
-                         className="bg-gradient-to-r from-yellow-300 via-pink-400 to-yellow-300 bg-clip-text text-4xl tracking-tight text-transparent">
+                         className="bg-gradient-to-r from-pink-300 via-purple-400 to-pink-300 bg-clip-text text-4xl tracking-tight text-transparent">
                             NLP and Backend Developer
                         </motion.span>
                         <motion.p 

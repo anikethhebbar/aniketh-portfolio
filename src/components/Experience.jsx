@@ -28,10 +28,20 @@ const Experience = () => {
                         initial={{ opacity: 0, y: 50 }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                     >
-                        <div className="w-full sm:w-1/3 lg:w-1/4">
+                        <motion.div 
+                            className="w-full sm:w-1/3 lg:w-1/4"
+                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, x: -50 }}
+                            transition={{ duration: 0.5, delay: index * 0.2 }}
+                        >
                             <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
-                        </div>
-                        <div className="w-full sm:w-2/3 lg:w-3/4">
+                        </motion.div>
+                        <motion.div 
+                            className="w-full sm:w-2/3 lg:w-3/4"
+                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, x: 50 }}
+                            transition={{ duration: 0.5, delay: index * 0.2 }}
+                        >
                             <h6 className="mb-2 font-semibold">
                                 {experience.role} -{" "}
                                 <span className="text-sm text-purple-100">
@@ -40,13 +50,19 @@ const Experience = () => {
                             </h6>
                             <p className="mb-4 text-neutral-400">{experience.description}</p>
                             <div className="flex flex-wrap">
-                                {experience.technologies.map((tech, index) => (
-                                    <span key={index} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-300">
+                                {experience.technologies.map((tech, techIndex) => (
+                                    <motion.span 
+                                        key={techIndex} 
+                                        className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-300"
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        initial={{ opacity: 0, scale: 0.8 }}
+                                        transition={{ duration: 0.3, delay: techIndex * 0.1 }}
+                                    >
                                         {tech}
-                                    </span>
+                                    </motion.span>
                                 ))}
                             </div>
-                        </div>
+                        </motion.div>
                     </motion.div>
                 ))}
             </div>

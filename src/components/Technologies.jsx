@@ -18,7 +18,7 @@ const Technologies = () => {
                     Technologies
                 </motion.span>
             </motion.h1>
-            <div className="flex flex-wrap items-center justify-center gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-3.5">
                 {[
                     { Icon: FaPython, color: "text-blue-400", name: "Python" },
                     { Icon: SiFastapi, color: "text-cyan-500", name: "FastAPI" },
