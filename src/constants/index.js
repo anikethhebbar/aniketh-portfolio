@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     role: "AIML Intern & Founding Member",
     company: "Interain",
     description: `Led AI/ML development from inception to MVP launch. Developed core NLP solutions using Azure OpenAI. Balanced academic commitments with startup responsibilities, contributing to product strategy and technical architecture. Successfully launched MVP, securing initial user adoption.`,
-    technologies: ["Python", "Azure", "Typescript", "OpenAI", "NLP", "Docker","Git"]
+    technologies: ["Python", "Azure", "Typescript", "OpenAI", "NLP", "Docker", "Git"]
   },
   {
     year: "December 2022 - January 2024",
@@ -95,3 +95,40 @@ export const CONTACT = {
   linkedin: "Linkedin",
   github: "Github",
 };
+export const LINKEDIN_RECOMMENDATIONS = [
+  {
+    name: "Dr. Mousumi Saha",
+    position: "Project Coordinator; Bio-Innovation; Translational Research; Microbiology",
+    relationship: "Dr. Mousumi managed Aniketh directly",
+    recommendation: "I have had the privilege of working closely with Aniketh since 2022. I have been consistently impressed by his dedication and personal qualities. He is actively involved in research and innovation as an E-YUVA fellow. His work on the E-YUVA project was insightful and has great potential for future applications in healthcare. Aniketh led various initiatives, showing exceptional organizational skills, problem-solving capabilities, and the ability to inspire and motivate his peers. His humility, coupled with a strong work ethic, makes him well-respected among both faculty and fellow students. I wholeheartedly recommend him and am confident that he will bring the same level of excellence, dedication, and leadership to any endeavor he pursues.",
+    linkedin: "https://www.linkedin.com/in/dr-mousumi-saha-33556948",
+  },
+  {
+    name: "Dhanush N",
+    position: "Founder & CEO at Interain",
+    relationship: "Dhanush managed Aniketh directly",
+    recommendation: "Despite being an intern at Interain, Aniketh effectively led our tech initiatives, displaying remarkable independence and technical prowess. His contributions were crucial to the success of our EdTech startup. He consistently delivered high-quality solutions, and his teamwork and leadership were invaluable. Aniketh is a true asset to any team.",
+    linkedin: "https://www.linkedin.com/in/dhanush-n-00724a196",
+  },
+  {
+    name: "Dr. Vijayashekhar S Sankannanavar",
+    position: "Teaching and Research in AI/ML, Computer Vision, and Data Analytics, HOD, AI & ML, Acharya Institute of Technology",
+    relationship: "Dr. Vijayashekhar was Aniketh’s teacher",
+    recommendation: "Aniketh is an excellent student with strong technical skills in AI and ML. He grasps concepts quickly and demonstrates advanced programming abilities. He is highly capable of tackling complex problems and excels in his field.",
+    linkedin: "https://www.linkedin.com/in/dr-vijayashekhar-s-sankannanavar-a25648192",
+  },
+  {
+    name: "Dr. Ajith Padyana",
+    position: "HOD CSE, Acharya Institute of Technology",
+    relationship: "Dr. Ajith managed Aniketh directly",
+    recommendation: "As a dynamic software engineering student, Aniketh has shown exceptional enthusiasm and capability in all tasks he undertakes. He was a key member of the first batch of the AI and ML department and played a vital role in executing a major Biotechnology project. I highly recommend him for software development roles in AI and ML.",
+    linkedin: "https://www.linkedin.com/in/drajithpadyana",
+  },
+  {
+    name: "Poornachandra Kashi",
+    position: "Engineering at Astuto.AI",
+    relationship: "Poornachandra worked with Aniketh on the same team",
+    recommendation: "I had the pleasure of working closely with Aniketh as part of the NLP team, where he demonstrated an exceptional ability to build and fine-tune cutting-edge NLP models. From the start, Aniketh displayed a deep understanding of natural language processing and machine learning concepts, combined with an impressive ability to solve complex problems with creativity and precision. Beyond his technical skills, Aniketh was a fantastic team player, always willing to collaborate, share knowledge, and mentor others. I highly recommend Aniketh for any future opportunities in NLP and machine learning.",
+    linkedin: "https://www.linkedin.com/in/poornachandrakashi",
+  },
+];
